@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Juego de laberinto para personas vulnerables</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <h1>Juego de laberinto para personas vulnerables</h1>
+    <div id="game-container">
+        <div id="player"></div>
+        <div class="wall" style="top: 40px; left: 120px;"></div>
+        <div class="wall" style="top: 80px; left: 200px;"></div>
+        <div class="wall" style="top: 120px; left: 80px;"></div>
+        <div class="wall" style="top: 160px; left: 160px;"></div>
+        <div class="wall" style="top: 200px; left: 240px;"></div>
+        <div class="wall" style="top: 240px; left: 320px;"></div>
+        <div class="wall" style="top: 280px; left: 80px;"></div>
+        <div class="wall" style="top: 320px; left: 200px;"></div>
+        <div class="wall" style="top: 360px; left: 280px;"></div>
+        <div class="moving-wall" style="top: 160px; left: 360px;"></div>
+        <div class="goal" style="top: 320px; left: 360px;"></div>
+    </div>
+    <div id="instructions">
+        <h2>Instrucciones</h2>
+        <p>¡Bienvenido! En este juego, representarás a una persona vulnerable que necesita llegar a la meta para alcanzar un objetivo importante. Utiliza las teclas de flecha para guiar al personaje a través del laberinto. Evita los obstáculos rojos y llega
+            a la meta verde antes de que se acabe el tiempo para ganar el juego y ayudar a la persona vulnerable a alcanzar su objetivo.</p>
+    </div>
+    <div id="timer">Tiempo restante: <span id="time-left">60</span> segundos</div>
+    <script src="script.js"></script>
+</body>
+
+</html>
